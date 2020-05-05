@@ -235,18 +235,19 @@ a {
             margin: 80px 10px;
             display: grid;
             grid-template: 30px 30px 30px / auto auto auto auto;
-            gap: 30px 15px;
+            gap: 45px 20px;
             justify-content: left;
             justify-items: center;
+            max-width: 60vw;
         }
 
         .note {
             background-color: rgb(109, 23, 23);
             color: whitesmoke;
-            padding: 10px;
-            min-width: 50px;
-            min-height: 50px;
-            font-size: 18px;
+            padding: 15px;
+            min-width: 48px;
+            min-height: 45px;
+            font-size: 15px;
             text-align: center;
             border-radius: 50%;
             place-self: center;
