@@ -14,7 +14,7 @@ Os sons usados foram criados no editor de partituras Finale.
 
 Este projeto faz é uma atividade criada para por em prática meu aprendizado de html/css/js.
 Alguns elementos novos que utilizei aqui foram:
-  - Uso de sons e <audio> tag em hmtl
+  - Uso de sons e <audio> tag em HTML
   - Uso do atributo HTML data-* para criar atributos em uma tag
   - Setup de Event listeners para o teclado: keypress
   - Alterar CSS através do JavaScript
