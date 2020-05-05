@@ -1,78 +1,73 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>PentatoniKeys</title>
-        <link href="style.css" type="text/css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PentatoniKeys</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
 
-      </head>
-      
-      <body>
-		  <header>
-                  
-                  <h1> Pentatonic and harmony sounds</h1>
-        	      <p>All the chords and notes here are based on a pentatonic scale (Do-Re-Mi-Sol-La).<br> 
-                    Pick a chord (left) and create some melodies using the notes below.</p>
-		  </header>
-		
+</head>
 
-        <aside class="chord-area">
-              <button data-key="q" class="chord" >Q<span class="chord-name">DO</span></button>
-              <button data-key="w" class="chord" >W<span class="chord-name">RE</span></button>
-              <button data-key="a" class="chord" >A<span class="chord-name">MI</span></button>
-              <button data-key="s" class="chord" >S<span class="chord-name">SOL</span></button>
-              <button data-key="d" class="chord" >D<span class="chord-name">LA</span></button>
-        </aside>
-        
-        <div class="note-area">
-              <button data-key="5" class='note' >5 <span class="label">Re</span>    </button>
-              <button data-key="6" class='note' >6 <span class="label">Mi</span> </button>
-              <button data-key="7" class='note' >7 <span class="label">Sol</span></button>
-              <button data-key="8" class='note' >8 <span class="label">La</span></button>
-              <button data-key="t" class='note' >T <span class="label">Mi</span></button>
-              <button data-key="y" class='note' >Y <span class="label">Sol</span></button>
-              <button data-key="u" class='note'>U <span class="label">La</span></button>
-              <button data-key="i" class='note'>I <span class="label">Do</span></button>
-              <button data-key="g" class='note'>G <span class="label">Sol</span></button>
-              <button data-key="h" class='note'>H <span class="label">La</span></button>
-              <button data-key="j" class='note'>J <span class="label">Do</span></button>
-              <button data-key="k" class='note'>K <span class="label">Re</span></button>
-        </div>
-          
-        <!-- Chords sounds-->
-        <audio data-key="q" src="sounds/chord C.mp3"></audio>
-        <audio data-key="w" src="sounds/chord D.mp3"></audio>
-        <audio data-key="a" src="sounds/chord E.mp3"></audio>
-        <audio data-key="s" src="sounds/chord G.mp3"></audio>
-        <audio data-key="d" src="sounds/chord A.mp3"></audio>
-        
-        <!-- NOTES sounds-->
-        <audio data-key="g" src="sounds/note01.mp3"></audio> 
-        <audio data-key="h" src="sounds/note02.mp3"></audio>
-        <audio data-key="j" src="sounds/note03.mp3"></audio>
-        <audio data-key="k" src="sounds/note04.mp3"></audio>
-        <audio data-key="t" src="sounds/note05.mp3"></audio>
-        <audio data-key="y" src="sounds/note06.mp3"></audio>
-        <audio data-key="u" src="sounds/note07.mp3"></audio>
-        <audio data-key="i" src="sounds/note08.mp3"></audio>
-        <audio data-key="5" src="sounds/note09.mp3"></audio>
-        <audio data-key="6" src="sounds/note10.mp3"></audio>
-        <audio data-key="7" src="sounds/note11.mp3"></audio>
-        <audio data-key="8" src="sounds/note12.mp3"></audio>
+<body>
+    <header>
 
-        <div class="autor">
-            Made by <a href="https://github.com/le-santos">le-santos</a>
-      </div>
-      
-        <script src="script.js"></script>
-      </body>
-      
+        <h1> Pentatonic and harmony sounds</h1>
+        <p>All the chords and notes here are based on a pentatonic scale (Do-Re-Mi-Sol-La).
+            <br> Pick a chord (left) and create some melodies using the notes below.</p>
+    </header>
 
+    <aside class="chord-area">
+        <button data-key="q" class="chord">Q<span class="chord-name">DO</span></button>
+        <button data-key="w" class="chord">W<span class="chord-name">RE</span></button>
+        <button data-key="a" class="chord">A<span class="chord-name">MI</span></button>
+        <button data-key="s" class="chord">S<span class="chord-name">SOL</span></button>
+        <button data-key="d" class="chord">D<span class="chord-name">LA</span></button>
+    </aside>
 
+    <div class="note-area">
+        <button data-key="5" class='note'>5 <span class="label">Re</span> </button>
+        <button data-key="6" class='note'>6 <span class="label">Mi</span> </button>
+        <button data-key="7" class='note'>7 <span class="label">Sol</span></button>
+        <button data-key="8" class='note'>8 <span class="label">La</span></button>
+        <button data-key="t" class='note'>T <span class="label">Mi</span></button>
+        <button data-key="y" class='note'>Y <span class="label">Sol</span></button>
+        <button data-key="u" class='note'>U <span class="label">La</span></button>
+        <button data-key="i" class='note'>I <span class="label">Do</span></button>
+        <button data-key="g" class='note'>G <span class="label">Sol</span></button>
+        <button data-key="h" class='note'>H <span class="label">La</span></button>
+        <button data-key="j" class='note'>J <span class="label">Do</span></button>
+        <button data-key="k" class='note'>K <span class="label">Re</span></button>
+    </div>
+
+    <!-- Chords sounds-->
+    <audio data-key="q" src="sounds/chord C.mp3"></audio>
+    <audio data-key="w" src="sounds/chord D.mp3"></audio>
+    <audio data-key="a" src="sounds/chord E.mp3"></audio>
+    <audio data-key="s" src="sounds/chord G.mp3"></audio>
+    <audio data-key="d" src="sounds/chord A.mp3"></audio>
+
+    <!-- NOTES sounds-->
+    <audio data-key="g" src="sounds/note01.mp3"></audio>
+    <audio data-key="h" src="sounds/note02.mp3"></audio>
+    <audio data-key="j" src="sounds/note03.mp3"></audio>
+    <audio data-key="k" src="sounds/note04.mp3"></audio>
+    <audio data-key="t" src="sounds/note05.mp3"></audio>
+    <audio data-key="y" src="sounds/note06.mp3"></audio>
+    <audio data-key="u" src="sounds/note07.mp3"></audio>
+    <audio data-key="i" src="sounds/note08.mp3"></audio>
+    <audio data-key="5" src="sounds/note09.mp3"></audio>
+    <audio data-key="6" src="sounds/note10.mp3"></audio>
+    <audio data-key="7" src="sounds/note11.mp3"></audio>
+    <audio data-key="8" src="sounds/note12.mp3"></audio>
+
+    <div class="autor">
+        Made by <a href="https://github.com/le-santos">le-santos</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 
 </html>
-
